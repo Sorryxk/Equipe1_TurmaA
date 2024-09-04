@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Tela Inicial</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <!-- Tela_Inicial_e_InfoRemedios -->
+    <header>
+        <div>
+            <!-- Visão do calendário da semana -->
+            <p>Seg Ter Qua Qui Sex Sáb Dom 
+                <a href="tela_expansao_visao_semanal.html">
+                    <img src="img/seta_avançar.png" alt="Expandir visão semanal">
+                </a>
+            </p>
+        </div>
+        <!-- a tela acima não foi feita aqui de forma que ela é MT PARECIDA 
+         com essa, só que poderia "scrollar" para baixo vendo os remedios a 
+         seres tomados só que da semana inteira-->
+    </header>
+    <main>
+        <h1>Hoje</h1>
+        <p>Data: 03/09/2024</p>
+        
+        <ol>
+            <li>
+                <p>Horario 1</p>
+                <!-- Bloco do remédio com botão para expandir -->
+                <div>
+                    <em><p>Remédio: Exemplo 1</p></em>
+                    <p>Concentração: 50 mg</p>
+                    <!-- icone nesse caso depende do remedio-->
+                    <img src="img/icone-pilula.png" alt="icone pilula">
+                    <button>Ver Detalhes</button>
+                    <!-- expansão para info do remed uso div??
+                    <div>
+                        <p>Tomar com água após o café da manhã.</p>
+                    </div>-->
+                </div>
+                <!-- check se tomou já o remedio ou não -->
+                <button>
+                    <img src="img/icone-check" alt="botao de check">
+                </button>
+            </li>
+            <!-- Outros horários e remédios -->
+            <li>
+                <p>Horario 2</p>
+                <div>
+                    <em><p>Remédio: Exemplo 2</p></em>
+                    <p>Concentração: 20 mg</p>
+                    <img src="img/icone-injecao.png" alt="icone injeção">
+                    <button>Ver Detalhes</button>
+                    <!--<div>
+                        <p>Não tomar com bebida alcolica.</p>
+                    </div>-->
+                </div>
+                <button>
+                    <img src="img/icone-check" alt="botao de check">
+                </button>
+            </li>
+        </ol>
+        
+        <div>
+            <!-- fiquei na duvida sobre o uso do figure -->
+            <figure>
+                <button>
+                    <img src="img/icone_pilula.png" alt="botão tela incial">
+                </button>
+
+                <a href="Tela_AddNovoRemedio.html">
+                    <img src="img/icone_mais.png" alt="botão tela add novo remed">
+                </a>
+
+                <button>
+                    <img src="img/icone_configuracoes.png" alt="botão config">
+                </button>
+            </figure>
+        </div>
+    </main>
+    
+</body>
+</html>
